@@ -11,6 +11,8 @@ You can preview what your Markdown file will look like when styles are added by 
 
 ***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:***
 
+There is a list, certain words are highlighted, bolded, and italicized
+
 ### Lists
 
 Create a numbered list of five of your favorite foods in-order from favorite to least favorite in the designated area below. Be sure to include at least two things that are made of multiple ingredients.  
@@ -19,17 +21,41 @@ For each item that has multiple ingredients, create a sub list of a few (2-5) of
 
 ***Q2. Create your list here:***
 
+1. pizza
+  1. cheese
+  1. pepperoni
+  1. sausage
+1. steak
+1. ice cream
+1. cake
+  * eggs
+  * milk
+  * flour
+  * icing
+1. salad
+
+
 ### Headings
 
 Headings and sub-headings help separate the content of a document.
 
 ***Q3. Add a new third tier heading to this document named "My Heading" here:***
 
+### My Heading
+
 ### Code
 
 Markdown is often used to document code.  Consequently, it supports embedding code within documents.
 
 ***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):***
+
+```java
+for(int x = 0; x < 10; x++){
+
+  System.out.println(x);
+
+}
+```
 
 ## Part 2: What is IoT
 
@@ -39,6 +65,11 @@ This class is about IoT.  [Postscapes](https://www.postscapes.com/internet-of-th
 
 Search for some additional IoT examples at other sites and find two examples that you find interesting.
 
+Name| Explanation
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 ***Q6.  For each example: 1) provide a link to it, 2) provide a brief summary of it, and 3) explain how it corresponds to distinguishing features you identified above and/or or how you may want to revise your list of distinguishing features.  Use lists/sublists to format your answer to this question (A numbered list of 2 items, each of which as 3 sub-items):***
 
 ## Part 3: Comparing with Peers
@@ -46,5 +77,7 @@ Search for some additional IoT examples at other sites and find two examples tha
 Compare your previous work with other people in the class and try to come to a consensus about what IoT is about.
 
 ***Q7. Meet someone new.  Find a class member who you don't already know and introduce yourself.  Compare your work conclusions to the above IoT questions. Again, using a list indicate: 1) Who you worked with, and 2) Any discrepancies or interesting observations that arise from comparing your work:***
+
+
 
 ***Q8. Meet someone else new.  Find another class member who you don't already know and introduce your self.  Again compare your work as before:***
